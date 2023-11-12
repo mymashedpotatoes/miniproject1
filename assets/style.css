@@ -1,0 +1,69 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left:0;
+    border-bottom: 6mm ridge #975846;
+    height: 60px;
+    width: 1850px;
+    font-weight: bold;
+    text-align: right;
+}
+
+footer {
+    border-bottom: 6mm ridge #4F4846;    
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+  }
+
+body {
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(250, 244, 236);
+}
+
+section {
+    border-top: 6mm ridge rgb(255, 210, 210);
+}
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    border: 8px solid rgb(255, 210, 210);
+    border-radius: 20px;
+}
+
+input {
+    height: 20px;
+    width: 175px;
+}
+
+button {
+    height: 30px;
+    width: 70px;
+    background-color: #975846;
+    color: white;
+}
+
+
+.lesson {
+    color: white;
+    background-color: rgb(8, 88, 57)
+}
+
+
+.pink-box {
+    background-color: rgb(252, 227, 219);
+}
